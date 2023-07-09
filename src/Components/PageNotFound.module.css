@@ -1,0 +1,15 @@
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 100px;
+    color: #ff0000;
+  }
+  
+  .message {
+    font-size: 100px;
+    color: #333333;
+  }
+  

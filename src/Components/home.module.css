@@ -1,0 +1,6 @@
+.home-container {
+  background-image: url('../images/Hospital.png');
+  background-size: cover;
+  background-position: center;
+  /* Add any additional styles for the background container */
+}

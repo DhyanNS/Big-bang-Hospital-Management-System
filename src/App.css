@@ -1,0 +1,249 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  background-color: #e50b0b;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* NavigationBar */
+.navbar {
+  background-color: #336699;
+  color: #951111;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #a2d909;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  background-color: #0c71c4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Home */
+.home-title {
+  color: #336699;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  color: #555;
+  font-size: 16px;
+}
+
+/* Login */
+.login-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #336699;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #003366;
+}
+
+/* AdminPage */
+.admin-title {
+  color: #336699;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.admin-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-list-item {
+  margin-bottom: 10px;
+}
+
+/* Register */
+.register-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.register-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-checkbox-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.register-checkbox {
+  margin-right: 5px;
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #336699;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #003366;
+}
+
+/* ToastContainer */
+.Toastify__toast-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.Toastify__toast {
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+.Toastify__toast--success {
+  background-color: #4caf50;
+}
+
+.Toastify__toast--error {
+  background-color: #f44336;
+}
+
+.Toastify__toast--warning {
+  background-color: #ff9800;
+}
+
+.Toastify__toast--info {
+  background-color: #2196f3;
+}
+
+.Toastify__toast-body {
+  color: #fff;
+}
+
+/* DisplayPatient */
+.patient-card {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.patient-card-title {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.patient-card-info {
+  color: #555;
+  font-size: 14px;
+}
+
+/* FetchPatients */
+.fetch-patients-title {
+  color: #336699;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* FetchAllDoctors */
+.fetch-doctors-title {
+  color: #336699;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* FetchConsultedDoctors */
+.fetch-consulted-doctors-title {
+  color: #336699;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* NotConsultedDoctors */
+.not-consulted-doctors-title {
+  color: #336699;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* FetchNotConsultedDoctors */
+.fetch-not-consulted-doctors-title {
+  color: #336699;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Doctor */
+.doctor-card {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.doctor-card-title {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.doctor-card-info {
+  color: #555;
+  font-size: 14px;
+}
+
+/* Admin */
+.admin-card {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.admin-card-title {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.admin-card-info {
+  color: #555;
+  font-size: 14px;
+}

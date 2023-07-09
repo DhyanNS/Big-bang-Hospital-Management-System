@@ -1,0 +1,15 @@
+.login-container {
+    background: Conic-gradient( #9b0707, #a8da12);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  

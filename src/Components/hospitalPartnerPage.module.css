@@ -1,0 +1,33 @@
+/* hospitalPartnerPage.module.css */
+
+.partner-image {
+  border: 2px solid #ccc;
+  padding: 10px;
+  /* Add any additional styles for the partner image */
+}
+
+.award-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* Add any additional styles for the award container */
+}
+
+.award-image {
+  border: 2px solid #ccc;
+  padding: 10px;
+  /* Add any additional styles for the award image */
+}
+
+.partner-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* Add any additional styles for the partner container */
+}
+
+.partner-logo {
+  border: 2px solid #ccc;
+  padding: 10px;
+  /* Add any additional styles for the partner logo */
+}
